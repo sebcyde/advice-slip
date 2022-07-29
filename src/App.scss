@@ -4,8 +4,10 @@
 	margin: 0px;
 	padding: 0px;
 	background-color: black;
+	background-image: url('https://thumbs.gfycat.com/HappygoluckyPolishedHartebeest-size_restricted.gif');
+	background-size: cover;
 	color: #22b455;
-	font-family: 'Coda', cursive;
+	font-family: 'Gugi', cursive;
 	overflow: hidden;
 
 	.LoadingScreenContainer {
@@ -33,7 +35,7 @@
 
 	.HomepageContainer {
 		position: absolute;
-		background-color: black;
+
 		width: 100%;
 		height: 100vh;
 		display: flex;
@@ -60,7 +62,6 @@
 		width: 100%;
 		height: 50%;
 		position: fixed;
-		background-color: black;
 		text-align: center;
 		display: flex;
 		flex-direction: column;
