@@ -32,22 +32,24 @@ function Quotes() {
 				<h3>{Advice}</h3>
 				<h4>Advice Number: {AdviceID}</h4>
 			</div>
-			<button
-				className="AdviceButton"
-				onClick={() => {
-					PullData();
-				}}
-			>
-				Pull Data
-			</button>
-			<button
-				className="AdviceReturnButton"
-				onClick={() => {
-					ReturnHome();
-				}}
-			>
-				Return Home
-			</button>
+			<div className="ButtonContainer">
+				<button
+					className="AdviceReturnButton"
+					onClick={() => {
+						ReturnHome();
+					}}
+				>
+					Return Home
+				</button>
+				<button
+					className="AdviceButton"
+					onClick={() => {
+						PullData();
+					}}
+				>
+					Pull Data
+				</button>
+			</div>
 		</div>
 	);
 }

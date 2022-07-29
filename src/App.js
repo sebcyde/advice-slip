@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Link, Routes } from 'react-router-dom';
 import Quotes from './Components/Quotes/Quotes';
 import LoadingScreen from './Components/LoadingScreen/LoadingScreen';
 import Homepage from './Components/Homepage/Homepage';
+import SpaceX from './Components/SpaceX/SpaceX';
 
 function App() {
 	const [Loading, setLoading] = useState(true);
@@ -63,9 +64,9 @@ function App() {
 							<Route path="/Quotes" element={<Quotes />}>
 								{Quotes}
 							</Route>
-							{/* <Route path="/topics">
-							<Topics />
-						</Route> */}
+							<Route path="/SpaceX" element={<SpaceX />}>
+								{SpaceX}
+							</Route>
 						</Routes>
 					</>
 				)}

@@ -7,7 +7,7 @@ function Homepage() {
 			<div className="LinkContainer">
 				<Link to="/Quotes">Quotes</Link>
 				<Link to="/">Placeholder</Link>
-				<Link to="/">Placeholder</Link>
+				<Link to="/SpaceX">SpaceX</Link>
 			</div>
 		</div>
 	);
